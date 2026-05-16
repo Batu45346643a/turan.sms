@@ -1,0 +1,15 @@
+# Turan SMS - Gerekli Kütüphaneler
+
+# SMS ve İletişim
+twilio==9.0.0
+requests==2.31.0
+
+# Test Framework
+pytest==7.4.0
+pytest-cov==4.1.0
+
+# Veri İşleme
+python-dotenv==1.0.0
+
+# Ağ ve Mesh
+paho-mqtt==1.6.1
