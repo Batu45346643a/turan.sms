@@ -9,6 +9,7 @@ Deprem ve afet durumlarında internet bağlantısı olmadan SMS üzerinden ileti
 - ✅ Lokasyon paylaşımı
 - ✅ Acil durum bildirimleri
 - ✅ Basit ve kullanıcı dostu arayüz
+- ✅ To-Do List (Görevler) - Lokal depolama ile
 
 ## Gereksinimler
 
@@ -38,7 +39,7 @@ pip install -r requirements.txt
 ## Kullanım
 
 ```bash
-python main.py
+python src/main.py
 ```
 
 ## Proje Yapısı
@@ -51,10 +52,14 @@ turan.sms/
 │   ├── sms_handler.py
 │   ├── mesh_network.py
 │   ├── location.py
-│   └── emergency.py
+│   ├── emergency.py
+│   └── todo_manager.py
 ├── tests/
 │   ├── __init__.py
-│   └── test_sms.py
+│   ├── test_sms.py
+│   └── test_todo.py
+├── data/
+│   └── todos.json
 ├── requirements.txt
 ├── .gitignore
 ├── README.md
