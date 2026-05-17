@@ -1,0 +1,40 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black background -->
+  <rect width="1000" height="1000" fill="#000000"/>
+  
+  <!-- Speech bubble background -->
+  <rect x="300" y="150" width="400" height="280" rx="30" fill="none" stroke="#FF0000" stroke-width="25"/>
+  
+  <!-- Speech bubble pointer -->
+  <polygon points="350,430 280,530 420,480" fill="#FF0000"/>
+  
+  <!-- Turkish flag inside bubble -->
+  <rect x="350" y="200" width="300" height="200" fill="#000000"/>
+  <circle cx="450" cy="300" r="50" fill="#FFFFFF"/>
+  <polygon points="520,270 540,285 530,300 540,315 520,330" fill="#FFFFFF"/>
+  
+  <!-- WiFi signals -->
+  <g stroke="#FF0000" stroke-width="20" fill="none" stroke-linecap="round">
+    <path d="M 680 220 Q 720 180 760 220"/>
+    <path d="M 680 270 Q 740 210 800 270"/>
+    <path d="M 680 320 Q 760 240 840 320"/>
+  </g>
+  
+  <!-- Text: TURAN.SMS -->
+  <text x="500" y="620" font-family="Arial, sans-serif" font-size="140" font-weight="bold" fill="#FFFFFF" text-anchor="middle">TURAN</text>
+  <text x="720" y="620" font-family="Arial, sans-serif" font-size="140" font-weight="bold" fill="#FF0000" text-anchor="start">.SMS</text>
+  
+  <!-- Subtitle: ACIL UYARI PROGRAMI -->
+  <text x="500" y="710" font-family="Arial, sans-serif" font-size="60" fill="#FFFFFF" text-anchor="middle">ACIL UYARI PROGRAMI</text>
+  
+  <!-- Decorative lines -->
+  <line x1="250" y1="680" x2="400" y2="680" stroke="#FF0000" stroke-width="8"/>
+  <line x1="600" y1="680" x2="750" y2="680" stroke="#FF0000" stroke-width="8"/>
+  
+  <!-- Audio waveform -->
+  <g stroke="#FF0000" stroke-width="15" fill="none" stroke-linecap="round">
+    <polyline points="300,820 320,760 340,840 360,760 380,840 400,760 420,840 440,760 460,820"/>
+    <polyline points="500,820 520,760 540,840 560,760 580,840 600,760 620,840 640,760 660,820"/>
+    <polyline points="700,820 720,760 740,840 760,760 780,840 800,760 820,840 840,760 860,820"/>
+  </g>
+</svg>
