@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="logo.svg" alt="TURAN.SMS Logo" width="400">
+</div>
+
 # Turan SMS - Deprem İletişim Sistemi 🚨
 
 Deprem ve afet durumlarında SMS ve offline mesh ağı üzerinden iletişim kurabilecek kapsamlı bir sistem.
@@ -157,6 +161,7 @@ turan.sms/
 ├── .gitignore
 ├── requirements.txt
 ├── README.md
+├── logo.svg
 └── LICENSE
 ```
 
